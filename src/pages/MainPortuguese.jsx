@@ -13,7 +13,7 @@ import html from '../images/html.png';
 import css from '../images/css.png';
 import mongodb from '../images/mongoDB.png';
 import mysql from '../images/mysql.png';
-import projeto1 from '../images/projeto-1.png';
+import projeto1 from '../images/project_recipe_app.png';
 import projeto2 from '../images/projeto-2.png';
 import projeto3 from '../images/projeto-3.png';
 import usaIcon from '../images/usaIcon.png';
@@ -125,16 +125,18 @@ export default function MainPortuguese() {
           <h4>Full Stack Web Developer</h4>
           <p>
             {' '}
-            Olá, meu nome é Jean Marcel de Oliveira, sou Brasileiro com uma graduação em
-            Engenharia Civil, atualmente terminei meus estudos de
+            Olá, meu nome é Jean Marcel de Oliveira, sou Brasileiro e possuo uma graduação em
+            Engenharia Civil. Recentemente concluí meus estudos de
             desenvolvimento Web na trybe,
             em transição de carreira para a área da tecnologia.
-            Na trybe, escola de programação, aprendi os fundamentos de Javascript, CSS
-            HTML, react, redux, python, databases, tests, com softskills
-            incorporadas e colaboração com outros estudantes.
-            Sempre tive paixão inata por tecnologia, pois a maioria dos meus hobbies
-            vem disso, então trabalhar nesta área seria realmente unir o
-            útil ao agradável.
+            Na trybe, escola de programação, adquiri conhecimentos sólidos de Javascript, CSS
+            HTML, react, redux, python, databases, tests. Alem disso desenvolvi ablidades interpessoais (softskills)
+            e a capacidade de colaborar efetivamente com outros estudantes.
+            Minha paixão inata pela tecnologia sempre foi evidente em meus hobbies, que tem forte conexão com a área.
+            Trabalhar no campo de tecnologia não seria apena uma escolha profissional, mas também
+            a realização de um interesse pessoal duradouro.
+            Estou entusiasmado com as oportunidades que a tecnologia oferece e ansioso para aplicar meu conhecimento
+            e habilidades em projetos reais e desafiadores na área.
           </p>
           <a href="#projects">
             <button type="button" className="btn" id="btn-my-proj">Meus Projetos</button>
@@ -215,7 +217,7 @@ export default function MainPortuguese() {
         <h1>Meus Projetos</h1>
         <p>Alguns dos meus projetos mais relevantes </p>
         <div className="img-projetos" data-aos="fade-up">
-          <a href="https://github.com/jeanmarv/project_recipes_app"><img id="project1" src={ projeto1 } alt="projeto" /></a>
+          <a href="https://project-recipes-app-mocha.vercel.app/"><img id="project1" src={ projeto1 } alt="projeto" /></a>
           <a href="https://github.com/jeanmarv/trybe_fc"><img id="project2" src={ projeto2 } alt="projeto" /></a>
         </div>
         {/* --img-projetos--*/}

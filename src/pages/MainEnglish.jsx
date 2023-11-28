@@ -13,7 +13,7 @@ import html from '../images/html.png';
 import css from '../images/css.png';
 import mongodb from '../images/mongoDB.png';
 import mysql from '../images/mysql.png';
-import projeto1 from '../images/projeto-1.png';
+import projeto1 from '../images/project_recipe_app.png';
 import projeto2 from '../images/projeto-2.png';
 import projeto3 from '../images/projeto-3.png';
 import usaIcon from '../images/usaIcon.png';
@@ -120,14 +120,15 @@ export default function MainEnglish() {
           <h4>Full Stack Web Developer</h4>
           <p>
             {' '}
-            Hello, my name is Jean Marcel De Oliveira, A Brazilian with a degree on
-            Civil Engineering, currently finishing my Web development Studies at Trybe,
-            in order to shift my career to the technology Area.
-            On Trybe programming school I`ve learned the foundations of
-            Javascript, CSS, HTML, react, redux, python , databases, tests,
-            with incorportated softskills and colaboration with other students.
-            I`ve always had a innate passion for technology, as most of my
-            hobbies comes from it, so working in the area would be a real joy.
+            Hello, my name is Jean Marcel De Oliveira, A Brazilian with a degree in
+            Civil Engineering, i have recently completed my studies in web development at Trybe,
+            marking a significant career shift towards the technology field.
+            On Trybe programming school I`ve acquired a solid foundation in
+            Javascript, CSS, HTML, react, redux, python , databases, tests.
+            Additionally, I developed interpersonal skills (soft skills) and the ability to collaborate effectively with other students.
+            My innate passion for technology has always been evident in my hobbies, which are closely connected to the field.
+            Working in the technology sector is not just a professional choice but also the fulfillment of a lasting personal interest.
+            I am enthusiastic about the opportunities that technology presents and eager to apply my knowledge and skills to real and challenging projects in the field.
 
           </p>
           <a href="#projects">
@@ -209,7 +210,7 @@ export default function MainEnglish() {
         <h1>My Projects</h1>
         <p>My most relevant projects showcase </p>
         <div className="img-projetos" data-aos="fade-up">
-          <a href="https://github.com/jeanmarv/project_recipes_app"><img id="project1" src={ projeto1 } alt="projeto" /></a>
+          <a href="https://project-recipes-app-mocha.vercel.app/"><img id="project1" src={ projeto1 } alt="projeto" /></a>
           <a href="https://github.com/jeanmarv/trybe_fc"><img id="project2" src={ projeto2 } alt="projeto" /></a>
         </div>
         {/* --img-projetos--*/}
